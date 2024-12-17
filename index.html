@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
+      @layer base {
         @font-face {
             font-family: "OpenSans";
             src: url('./assets/font/OpenSans-VariableFont_wdth\,wght.ttf');
@@ -29,6 +30,7 @@
         button {
             @apply text-white bg-[#ED4933] py-3 px-12 border-solid rounded-md;
         }
+      }
     </style>
 </head>
 <body>
@@ -51,7 +53,7 @@
     </header>
     <main>
         <section class="bg-[#21B2A6] flex flex-col items-center pb-20">
-            <h2 class="border-b-2 inline-block pt-20 pb-5 border-green-600">„Not all those who wander are lost.“ – J.R.R. Tolkien</h2>
+            <h2 class="border-b-2 inline-block pt-20 pb-5 border-[#4a918b]">„Not all those who wander are lost.“ – J.R.R. Tolkien</h2>
             <p class="pt-5 pb-10 px-48 text-center text-[#C8ECE9]">Are you ready to embark on the journey of a lifetime? At Wanderlust Adventures, we specialize in curating
                 unforgettable travel experiences tailored to your unique desires. Whether you're seeking a tranquil beach
                 getaway, an exhilarating adventure in the mountains, or a culturally enriching city tour, we've got you covered.
@@ -100,7 +102,7 @@
         </section>
         <section class="bg-[#505393] px-48 pb-28">
             <article class="text-center">
-                <h2 class="border-b-2 inline-block pt-20 pb-5 border-green-600">OUR PROMISE</h2>
+                <h2 class="border-b-2 inline-block pt-20 pb-5 border-[#464981]">OUR PROMISE</h2>
                 <p class="pt-5 pb-10 text-center">
                     At Wanderlust Adventures, we understand that every traveler is unique, and that's why we offer personalized
                     itineraries. Our team of expert travel consultants will work closely with you to understand your preferences,
@@ -109,7 +111,7 @@
             </article>
             <article>
                 <div class="flex flex-row">
-                    <div class="w-1/2 p-[10%] bg-violet-400">
+                    <div class="w-1/2 p-[10%] bg-[#3f4382]">
                         <h3>PERSONALIZED <br>ITINERIES</h3>
                         <p>Our travel agency specializes in
                             crafting customized itineraries
@@ -119,7 +121,7 @@
                             truly unique and unforgettable
                             experience.</p>
                     </div>
-                    <div class="w-1/2 p-[10%] bg-violet-700">
+                    <div class="w-1/2 p-[10%] bg-[#3d4286]">
                         <h3>EXPERT DESTINATION KNOWLEDGE</h3>
                         <p>With our team of experienced travel
                             consultants, we have in-depth
@@ -132,7 +134,7 @@
                     </div>
                 </div>
                 <div class="flex flex-row">
-                    <div class="w-1/2 p-[10%] bg-violet-700">
+                    <div class="w-1/2 p-[10%] bg-[#5257a5]">
                         <h3>HASSLE_FREE PLANNING</h3>
                         <p>Leave the logistics to us. Our travel
                             agency takes care of all the
@@ -143,7 +145,7 @@
                             the stress of planning and
                             organizing.</p>
                     </div>
-                    <div class="w-1/2 p-[10%] bg-violet-400">
+                    <div class="w-1/2 p-[10%] bg-[#565dba]">
                         <h3>EXCLUSIVE DEALS AND PACKAGES</h3>
                         <p>We offer a wide range of exclusive
                             deals and packages that provide
@@ -155,7 +157,7 @@
                     </div>
                 </div>
                 <div class="flex flex-row">
-                    <div class="w-1/2 p-[10%] bg-violet-400">
+                    <div class="w-1/2 p-[10%] bg-[#686fcf]">
                         <h3>24/7 CUSTOMER <br>SUPPORT</h3>
                         <p>Our dedicated customer support
                             team is available round-the-clock to
@@ -165,7 +167,7 @@
                             require any assistance, we are just a
                             phone call or email away.</p>
                     </div>
-                    <div class="w-1/2 p-[10%] bg-violet-700">
+                    <div class="w-1/2 p-[10%] bg-[#5760d1]">
                         <h3>SAFETY AND SECURITY</h3>
                         <p>Your safety is our utmost priority.
                             We partner with reputable airlines,
@@ -204,7 +206,7 @@
             </article>
             <article class="flex flex-row justify-center items-center gap-[1%]">
                 <p class="text-[#C8ECE9]">© WANDERLUST ADVENTURES | DESIGN : </p>
-                <a class="text-[#C8ECE9]" href="">WANDERLUST ADVENTURES</a>
+                <a class="text-[#C8ECE9] underline" href="">WANDERLUST ADVENTURES</a>
             </article>
         </section>
     </footer>
